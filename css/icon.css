@@ -4076,8 +4076,8 @@ i.icon.youtube.play:before {
 /* Load & Define Icon Font */
 @font-face {
   font-family: 'outline-icons';
-  src: url("./../themes/default/assets/fonts/outline-icons.eot");
-  src: url("./../themes/default/assets/fonts/outline-icons.eot?#iefix") format('embedded-opentype'), url("./../themes/default/assets/fonts/outline-icons.woff2") format('woff2'), url("./../themes/default/assets/fonts/outline-icons.woff") format('woff'), url("./../themes/default/assets/fonts/outline-icons.ttf") format('truetype'), url("./../themes/default/assets/fonts/outline-icons.svg#icons") format('svg');
+  src: url("fonts/outline-icons.eot");
+  src: url("fonts/outline-icons.eot?#iefix") format('embedded-opentype'), url("fonts/outline-icons.woff2") format('woff2'), url("fonts/outline-icons.woff") format('woff'), url("fonts/outline-icons.ttf") format('truetype'), url("fonts/outline-icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
