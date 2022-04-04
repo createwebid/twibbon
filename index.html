@@ -230,12 +230,16 @@
           </button>
         </div>
         <div class="six wide right floated column">
-         <p id="canvas" class="ui large bordered rounded image"></p>
+         <p id="canvas" class="ui fluid image"></p>
         </div>
       </div>
       <div class="row">
         <div class="center aligned column">
-           <input type="file" (change)="fileEvent($event)" class="ui icon button" id="inputbtn" />
+           <button id="inputbtn" class="ui labeled icon button">
+           <i class="cloud icon"></i>
+           Upload file
+           </button>
+           <p><input type="file" (change)="fileEvent($event)" class="ui icon button" id="inputbtn" /></p>
         </div>
       </div>
     </div>
