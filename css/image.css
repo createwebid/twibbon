@@ -34,8 +34,7 @@ img.ui.image {
   display: block;
 }
 .ui.image svg,
-.ui.image img,
-.ui.image canvas {
+.ui.image img {
   display: block;
   max-width: 100%;
   height: auto;
