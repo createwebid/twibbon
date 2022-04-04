@@ -313,7 +313,7 @@ function preload() {
 			var uploadBtn = createFileInput(imageUpload);
 			uploadBtn.parent('inputbtn');
 			  // create canvas
-			  var c = createCanvas(796, 796);
+			  var c = createCanvas(500, 500);
 			  background('#fff');
 			  c.parent('canvas');
 			  // Add an event for when a file is dropped onto the canvas
@@ -363,7 +363,7 @@ function preload() {
 		    img = loadImage(file.data,function(){
 		    	background('#fff');
 		    	redraw();
-		    	image(img, 0, 0, width , height);
+		    	image(img, 796, 796, width , height);
 		        image(mask,0,0,width,height);
 		    })        
 		}
