@@ -56,8 +56,8 @@ function preload() {
 		    img = loadImage(file.data,function(){
 		    	background('#fff');
 		    	redraw();
-		    	image(img, 0, 0, width , height);
-		        image(mask,0,0,width,height);
+		    	image(img, 796, 796, width , height);
+		        image(mask,796,796,width,height);
 		    })        
 		}
 	
