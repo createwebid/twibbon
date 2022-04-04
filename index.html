@@ -230,16 +230,14 @@
           </button>
         </div>
         <div class="six wide right floated column">
-         <p id="canvas" class="ui fluid image"></p>
+         <div id="canvas" class="ui fluid image"></div>
         </div>
       </div>
       <div class="row">
         <div class="center aligned column">
            <button id="inputbtn" class="ui labeled icon button">
            <i class="cloud icon"></i>
-           Upload file
            </button>
-           <p><input type="file" (change)="fileEvent($event)" class="ui icon button" id="inputbtn" /></p>
         </div>
       </div>
     </div>
@@ -326,7 +324,7 @@ function preload() {
 		function draw() {
 		  fill(0);
 		  noStroke();
-		  textSize(21);
+		  textSize(14);
 		  textAlign(CENTER);
 		  text('Fotomu akan Muncul disini', width/2, height/2);
 		  noLoop();
