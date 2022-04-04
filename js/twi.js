@@ -16,8 +16,8 @@ function preload() {
 		function draw() {
 		  fill(0);
 		  noStroke();
-		  textSize(21);
-		  textAlign(CENTER);
+		  textSize(14);
+		  textAlign(right);
 		  text('Fotomu akan Muncul disini', width/2, height/2);
 		  noLoop();
 		}
