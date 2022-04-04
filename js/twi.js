@@ -6,7 +6,7 @@ function preload() {
 			var uploadBtn = createFileInput(imageUpload);
 			uploadBtn.parent('inputbtn');
 			  // create canvas
-			  var c = createCanvas(500, 500);
+			  var c = createCanvas(300, 300);
 			  background('#fff');
 			  c.parent('canvas');
 			  // Add an event for when a file is dropped onto the canvas
@@ -16,7 +16,7 @@ function preload() {
 		function draw() {
 		  fill(0);
 		  noStroke();
-		  textSize(21);
+		  textSize(14);
 		  textAlign(CENTER);
 		  text('Fotomu akan Muncul disini', width/2, height/2);
 		  noLoop();
