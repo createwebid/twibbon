@@ -82,11 +82,16 @@
   <div class="container">
     <h1 class="mt-5">Twibbon Maker</h1>
     <p class="lead">A Twibbon Campaign is your very own microsite where users can support your <code class="small">cause, brand</code> or <code class="small">organisation</code> in a variety of ways.</p>
+
     <p><button id="inputbtn" type="button" class="btn btn-outline-secondary"></button></p>
+
     <p><div class="img-fluid" id="canvas"></div></p>
-    <p><button type="button" class="btn btn-outline-success" onclick="download()">Save</button>
-    <button type="button" class="btn btn-outline-danger" onclick="remake()">Reset</button>
-    </p>
+
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-success" onclick="download()">Save</button>
+    <button type="button" class="btn btn-warning" onclick="remake()">Reset</button>
+    </div>
+
   </div>
 </main>
 
