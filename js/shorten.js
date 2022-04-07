@@ -94,7 +94,7 @@
 			});
 		} else {
 			outputEl.innerHTML =
-				"<span class='error'><b>Harap masukkan URL yang valid, termasuk. http://</b></span>";
+				"<p class="link-danger"><strong>Harap masukkan URL yang valid, termasuk. http://</strong></p>";
 		}
 	};
 	var inputEl = document.querySelector("input#url"),
