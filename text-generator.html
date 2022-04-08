@@ -100,10 +100,12 @@
     <p class="lead">Online tool untuk membuat tulisanmu menjadi Unik.</p>
     <p class="lead">Tulis kata-kata yang ingin kamu konversi di text box di bawah, dan kami akan mengkonversi tulisanmu menjadi keren.</p>
 
-    <p><div id="source-text-wrapper" class="textarea-wrapper">
-      <textarea id='source-text' rows="8" style="" placeholder="Ketik atau paste text disini :)" oninput="Copas.generateResult(this)"></textarea>
-    </div></p>
-    <small id='result-info' class="hidden">Hasil akan tampil dibawah, klik untuk mengkopinya.</small>
+    <p>
+    <div id="source-text-wrapper" class="mb-3">
+    <textarea class="form-control" id="source-text" rows="3" placeholder="Ketik atau paste text disini..." oninput="Copas.generateResult(this)"></textarea>
+    </div>
+    </p>
+    <p class="lead" id='result-info' class="hidden">Hasil akan tampil dibawah, klik untuk mengkopinya.</p>
     <p><div id="result-list" class="copas-list">
     </div></p>
 
