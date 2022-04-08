@@ -32,7 +32,7 @@ var Copas = {
     })
     itemEl.classList.add('selected')
     var infoSel = document.createElement('div')
-    infoSel.innerHTML = "tercopy"
+    infoSel.innerHTML = "Disalin"
     infoSel.classList.add('copied')
     itemEl.appendChild(infoSel)
     if (typeof gtag === "function") {
